@@ -2,7 +2,7 @@ export const data = [
     {
         id:'M1',
         url:'/ponniyinSelvan.jpg',
-        name:'Ponniyin Selvan',
+        name:'Ponniyin Selvan M',
         description:'Ponniyin Selvan is about the battle for succession in the Chola kingdom. At the beginning of the story, a comet appears in the sky. This is interpreted as a sign that someone from the royal family will die. Since Sundara Chola has been ill for years, it is assumed that he will pass away soon.'
     },
     {
