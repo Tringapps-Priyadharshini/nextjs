@@ -1,0 +1,81 @@
+
+.container{
+  text-align: center;
+  padding:20px;
+  font-size: 30px;
+  color:white;
+  background-color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height:300px;
+  background-color:aliceblue ;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+}
+.cardContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:30px;
+  padding:20px;
+}
+.movieName{
+  font-size:25px;
+  margin-top: 30px;
+  background-color: aliceblue;
+}
+.movieImage{
+  cursor: pointer;
+  width:150px;
+  height:150px;
+  transition: transform .7s; /* Animation */
+}
+.movieImage:hover{
+  transform:scale(1.2);
+}
+.movieDescription{
+  font-size:20px;
+  width:600px;
+  padding:10px;
+}
+.notFound{
+  text-align: center;
+  padding:10px;
+  color:white;
+}
+.homeBtn{
+  font-size:15px;
+  padding:10px;
+  border:2px solid black;
+  cursor:pointer;
+}
+.customPage,.cardDisplay{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color:white;
+}
+.nameDisplay{
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nameDisplay,.descriptionDisplay{
+  color:white;
+  width:600px;
+  padding:10px;
+}
+.descriptionDisplay{
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
